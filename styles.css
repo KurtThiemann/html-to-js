@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+
+.textareas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.textarea-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    flex-grow: 1;
+}
+
+.textarea-wrapper > label {
+    flex-grow: 0;
+}
+
+.textarea-wrapper > textarea {
+    flex-grow: 1;
+    min-height: 500px;
+    min-width: 300px;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-wrapper {
+    margin: 10px;
+}

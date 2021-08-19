@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML to JS</title>
+    <script src="converter.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h2>HTML to JS</h2>
+<p>
+    Convert HTML structures to JS code generating them.
+</p>
+<div class="textareas">
+    <div class="textarea-wrapper">
+        <label for="input">Input</label><textarea id="input"></textarea>
+    </div>
+    <div class="textarea-wrapper">
+        <label for="output">Output</label><textarea id="output" readonly></textarea>
+    </div>
+</div>
+<div class="checkboxes">
+    <div class="checkbox-wrapper">
+        <input type="checkbox" id="rm-whitespace" checked>
+        <label for="rm-whitespace">Remove whitespace</label>
+    </div>
+    <div class="checkbox-wrapper">
+        <input type="checkbox" id="add-fragment" checked>
+        <label for="add-fragment">Append to DocumentFragment</label>
+    </div>
+</div>
+</body>
+</html>
+
